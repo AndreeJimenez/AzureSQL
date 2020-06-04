@@ -1,0 +1,1 @@
+C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AzureSQL\AzureSQL.UWP\AzureSQL.UWP.csproj;x86

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\andre\\OneDrive\\Escritorio\\Proyectos Multiplataforma\\AzureSQL\\AzureSQL.Android\\AzureSQL.Android.csproj": {}
+    "C:\\Users\\andre\\OneDrive\\Escritorio\\Repositories\\AzureSQL\\AzureSQL\\AzureSQL.Android\\AzureSQL.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\andre\\OneDrive\\Escritorio\\Proyectos Multiplataforma\\AzureSQL\\AzureSQL.Android\\AzureSQL.Android.csproj": {
+    "C:\\Users\\andre\\OneDrive\\Escritorio\\Repositories\\AzureSQL\\AzureSQL\\AzureSQL.Android\\AzureSQL.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\andre\\OneDrive\\Escritorio\\Proyectos Multiplataforma\\AzureSQL\\AzureSQL.Android\\AzureSQL.Android.csproj",
+        "projectUniqueName": "C:\\Users\\andre\\OneDrive\\Escritorio\\Repositories\\AzureSQL\\AzureSQL\\AzureSQL.Android\\AzureSQL.Android.csproj",
         "projectName": "AzureSQL.Android",
-        "projectPath": "C:\\Users\\andre\\OneDrive\\Escritorio\\Proyectos Multiplataforma\\AzureSQL\\AzureSQL.Android\\AzureSQL.Android.csproj",
+        "projectPath": "C:\\Users\\andre\\OneDrive\\Escritorio\\Repositories\\AzureSQL\\AzureSQL\\AzureSQL.Android\\AzureSQL.Android.csproj",
         "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\andre\\OneDrive\\Escritorio\\Proyectos Multiplataforma\\AzureSQL\\AzureSQL.Android\\obj\\",
+        "outputPath": "C:\\Users\\andre\\OneDrive\\Escritorio\\Repositories\\AzureSQL\\AzureSQL\\AzureSQL.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "C:\\Users\\andre\\OneDrive\\Escritorio\\Proyectos Multiplataforma\\AzureSQL\\AzureSQL\\AzureSQL.csproj": {
-                "projectPath": "C:\\Users\\andre\\OneDrive\\Escritorio\\Proyectos Multiplataforma\\AzureSQL\\AzureSQL\\AzureSQL.csproj"
+              "C:\\Users\\andre\\OneDrive\\Escritorio\\Repositories\\AzureSQL\\AzureSQL\\AzureSQL\\AzureSQL.csproj": {
+                "projectPath": "C:\\Users\\andre\\OneDrive\\Escritorio\\Repositories\\AzureSQL\\AzureSQL\\AzureSQL\\AzureSQL.csproj"
               }
             }
           }
@@ -58,14 +58,14 @@
         }
       }
     },
-    "C:\\Users\\andre\\OneDrive\\Escritorio\\Proyectos Multiplataforma\\AzureSQL\\AzureSQL\\AzureSQL.csproj": {
+    "C:\\Users\\andre\\OneDrive\\Escritorio\\Repositories\\AzureSQL\\AzureSQL\\AzureSQL\\AzureSQL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\andre\\OneDrive\\Escritorio\\Proyectos Multiplataforma\\AzureSQL\\AzureSQL\\AzureSQL.csproj",
+        "projectUniqueName": "C:\\Users\\andre\\OneDrive\\Escritorio\\Repositories\\AzureSQL\\AzureSQL\\AzureSQL\\AzureSQL.csproj",
         "projectName": "AzureSQL",
-        "projectPath": "C:\\Users\\andre\\OneDrive\\Escritorio\\Proyectos Multiplataforma\\AzureSQL\\AzureSQL\\AzureSQL.csproj",
+        "projectPath": "C:\\Users\\andre\\OneDrive\\Escritorio\\Repositories\\AzureSQL\\AzureSQL\\AzureSQL\\AzureSQL.csproj",
         "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\andre\\OneDrive\\Escritorio\\Proyectos Multiplataforma\\AzureSQL\\AzureSQL\\obj\\",
+        "outputPath": "C:\\Users\\andre\\OneDrive\\Escritorio\\Repositories\\AzureSQL\\AzureSQL\\AzureSQL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -96,6 +96,10 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",

@@ -13,8 +13,10 @@ namespace AzureSQL.ViewModels
 {
     public class ItemsViewModel : BaseViewModel
     {
+        static ItemsViewModel _instance;
+
         Command _addCommand;
-        public Command NewCommand => _addCommand ?? (_addCommand = new Command(AddAction));
+        public Command AddCommand => _addCommand ?? (_addCommand = new Command(AddAction));
 
         Command _selectCommand;
         public Command SelectCommand => _selectCommand ?? (_selectCommand = new Command(SelectAction));
@@ -37,6 +39,7 @@ namespace AzureSQL.ViewModels
 
         public ItemsViewModel()
         {
+            _instance = this;
             Title = "Drivers";
             Drivers = new ObservableCollection<DriverModel>();
             LoadDriversCommand = new Command(ExecuteLoadDriversCommand);
@@ -50,6 +53,12 @@ namespace AzureSQL.ViewModels
             ExecuteLoadDriversCommand();
         }
 
+        public static ItemsViewModel GetInstance()
+        {
+            if (_instance == null) _instance = new ItemsViewModel();
+            return _instance;
+        }
+
         private void AddAction()
         {
             Application.Current.MainPage.Navigation.PushAsync(new DriverDetailPage());
@@ -60,12 +69,11 @@ namespace AzureSQL.ViewModels
             Application.Current.MainPage.Navigation.PushAsync(new DriverDetailPage(DriverSelected));
         }
 
-        async void ExecuteLoadDriversCommand()
+        public async void ExecuteLoadDriversCommand()
         {
-            IsBusy = true;
-
             try
             {
+                IsBusy = true;
                 Drivers.Clear();
                 ApiResponse response = await new ApiService().GetDataAsync<DriverModel>("driver"); //DataStore.GetItemsAsync(true);
                 if (response != null && response.Result != null)

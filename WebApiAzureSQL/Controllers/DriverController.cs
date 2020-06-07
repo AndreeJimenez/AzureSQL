@@ -8,40 +8,38 @@ using WebApiAzureSQL.Model;
 
 namespace WebApiAzureSQL.Controllers
 {
-    [Route("/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     public class DriverController : ControllerBase
     {
-        // GET: api/Driver
         [HttpGet]
         public List<DriverModel> Get()
         {
             return new DriverModel().GetAll();
         }
 
-        // GET: api/Driver/5
         [HttpGet("{id}", Name = "Get")]
-        public string Get(int id)
+        public DriverModel Get(int id)
         {
-            return "value";
+            return new DriverModel().Get(id);
         }
 
-        // POST: api/Driver
         [HttpPost]
-        public void Post([FromBody] string value)
+        public ApiResponse Post([FromBody] DriverModel driver)
         {
+            return driver.Insert();
         }
 
-        // PUT: api/Driver/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        public ApiResponse Put(int id, [FromBody] DriverModel driver)
         {
+            return driver.Update(id);
         }
 
-        // DELETE: api/ApiWithActions/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public ApiResponse Delete(int id)
         {
+            return new DriverModel().Delete(id);
         }
     }
 }

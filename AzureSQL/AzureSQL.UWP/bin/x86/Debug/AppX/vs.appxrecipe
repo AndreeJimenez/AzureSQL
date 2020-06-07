@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>ec0cc741-fd3e-485c-81be-68815c480690</PackageIdentityName>
     <PackageIdentityPublisher>CN=b8c83c82-9ce9-4f8c-a085-8996d51158da</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AzureSQL\AzureSQL.UWP\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\andre\OneDrive\Escritorio\Repositories\AzureSQL\AzureSQL\AzureSQL.UWP\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AzureSQL\AzureSQL.UWP\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>2308C6C712C8503C4152A5B57DC548C522C9231479DC9353FD2628A9D2CC3FCA</RegisteredManifestChecksum>
+    <LayoutDir>C:\Users\andre\OneDrive\Escritorio\Repositories\AzureSQL\AzureSQL\AzureSQL.UWP\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>FDDEF249C5DE66EBD2ABBC9091A32F346E89B1191AEAEAC7C70E5D0B09F1B848</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>b4f3cfd5-3cd6-4d73-9b1e-d523e6ff129e_1.0.0.0_x86__9rmw8gy1j1q8y</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>b4f3cfd5-3cd6-4d73-9b1e-d523e6ff129e_9rmw8gy1j1q8y!App</RegisteredUserModeAppID>
     <RegisteredPackageID>b4f3cfd5-3cd6-4d73-9b1e-d523e6ff129e</RegisteredPackageID>
@@ -27,16 +27,20 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AzureSQL\AzureSQL.UWP\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\andre\OneDrive\Escritorio\Repositories\AzureSQL\AzureSQL\AzureSQL.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-06-03T00:32:00.615</Modified>
+      <Modified>2020-06-07T21:16:28.695</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AzureSQL\AzureSQL.UWP\bin\x86\Debug\AzureSQL.UWP.exe">
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Repositories\AzureSQL\AzureSQL\AzureSQL.UWP\bin\x86\Debug\AzureSQL.UWP.exe">
       <PackagePath>entrypoint\AzureSQL.UWP.exe</PackagePath>
-      <Modified>2020-06-03T00:31:57.698</Modified>
+      <Modified>2020-06-07T21:16:26.649</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\.nuget\packages\automapper\9.0.0\lib\netstandard2.0\AutoMapper.dll">
+      <PackagePath>AutoMapper.dll</PackagePath>
+      <Modified>2019-08-12T17:42:04.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\andre\.nuget\packages\newtonsoft.json\12.0.3\lib\netstandard2.0\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
@@ -49,6 +53,10 @@
     <AppxPackagedFile Include="C:\Users\andre\.nuget\packages\win2d.uwp\1.20.0\runtimes\win10-x86\native\Microsoft.Graphics.Canvas.dll">
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
       <Modified>2016-11-30T08:58:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\.nuget\packages\xam.plugin.media\5.0.1\lib\uap10.0.16299\Plugin.Media.dll">
+      <PackagePath>Plugin.Media.dll</PackagePath>
+      <Modified>2020-04-02T00:52:02.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\andre\.nuget\packages\xamarin.essentials\1.5.3.2\lib\uap10.0.16299\Xamarin.Essentials.dll">
       <PackagePath>Xamarin.Essentials.dll</PackagePath>
@@ -70,9 +78,9 @@
       <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
       <Modified>2020-05-17T01:12:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AzureSQL\AzureSQL\bin\Debug\netstandard2.0\AzureSQL.dll">
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Repositories\AzureSQL\AzureSQL\AzureSQL\bin\Debug\netstandard2.0\AzureSQL.dll">
       <PackagePath>AzureSQL.dll</PackagePath>
-      <Modified>2020-06-03T00:34:36.056</Modified>
+      <Modified>2020-06-07T21:14:23.036</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\andre\.nuget\packages\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
@@ -86,172 +94,172 @@
       <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>
       <Modified>2020-05-17T01:11:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AzureSQL\AzureSQL.UWP\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Repositories\AzureSQL\AzureSQL\AzureSQL.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2020-05-28T23:03:48.039</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AzureSQL\AzureSQL.UWP\Assets\LargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Repositories\AzureSQL\AzureSQL\AzureSQL.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-05-28T23:03:47.925</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AzureSQL\AzureSQL.UWP\Assets\LargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Repositories\AzureSQL\AzureSQL\AzureSQL.UWP\Assets\LargeTile.scale-200.png">
       <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-05-28T23:03:47.929</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AzureSQL\AzureSQL.UWP\Assets\LargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Repositories\AzureSQL\AzureSQL\AzureSQL.UWP\Assets\LargeTile.scale-400.png">
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-05-28T23:03:47.940</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AzureSQL\AzureSQL.UWP\Assets\SmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Repositories\AzureSQL\AzureSQL\AzureSQL.UWP\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-05-28T23:03:47.942</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AzureSQL\AzureSQL.UWP\Assets\SmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Repositories\AzureSQL\AzureSQL\AzureSQL.UWP\Assets\SmallTile.scale-200.png">
       <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-05-28T23:03:47.945</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AzureSQL\AzureSQL.UWP\Assets\SmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Repositories\AzureSQL\AzureSQL\AzureSQL.UWP\Assets\SmallTile.scale-400.png">
       <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-05-28T23:03:47.947</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AzureSQL\AzureSQL.UWP\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Repositories\AzureSQL\AzureSQL\AzureSQL.UWP\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-05-28T23:03:47.949</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AzureSQL\AzureSQL.UWP\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Repositories\AzureSQL\AzureSQL\AzureSQL.UWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-05-28T23:03:47.957</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AzureSQL\AzureSQL.UWP\Assets\SplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Repositories\AzureSQL\AzureSQL\AzureSQL.UWP\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-05-28T23:03:47.961</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AzureSQL\AzureSQL.UWP\Assets\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Repositories\AzureSQL\AzureSQL\AzureSQL.UWP\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-05-28T23:03:47.964</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AzureSQL\AzureSQL.UWP\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Repositories\AzureSQL\AzureSQL\AzureSQL.UWP\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-05-28T23:03:47.966</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AzureSQL\AzureSQL.UWP\Assets\Square150x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Repositories\AzureSQL\AzureSQL\AzureSQL.UWP\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-05-28T23:03:47.974</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AzureSQL\AzureSQL.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Repositories\AzureSQL\AzureSQL\AzureSQL.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-05-28T23:03:47.977</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AzureSQL\AzureSQL.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Repositories\AzureSQL\AzureSQL\AzureSQL.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-05-28T23:03:47.980</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AzureSQL\AzureSQL.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Repositories\AzureSQL\AzureSQL\AzureSQL.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-05-28T23:03:47.982</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AzureSQL\AzureSQL.UWP\Assets\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Repositories\AzureSQL\AzureSQL\AzureSQL.UWP\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-05-28T23:03:47.991</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AzureSQL\AzureSQL.UWP\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Repositories\AzureSQL\AzureSQL\AzureSQL.UWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-05-28T23:03:47.993</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AzureSQL\AzureSQL.UWP\Assets\Square44x44Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Repositories\AzureSQL\AzureSQL\AzureSQL.UWP\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-05-28T23:03:47.995</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AzureSQL\AzureSQL.UWP\Assets\Square44x44Logo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Repositories\AzureSQL\AzureSQL\AzureSQL.UWP\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-05-28T23:03:47.997</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AzureSQL\AzureSQL.UWP\Assets\Square44x44Logo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Repositories\AzureSQL\AzureSQL\AzureSQL.UWP\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-05-28T23:03:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AzureSQL\AzureSQL.UWP\Assets\Square44x44Logo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Repositories\AzureSQL\AzureSQL\AzureSQL.UWP\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-05-28T23:03:48.008</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AzureSQL\AzureSQL.UWP\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Repositories\AzureSQL\AzureSQL\AzureSQL.UWP\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-05-28T23:03:48.013</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AzureSQL\AzureSQL.UWP\Assets\StoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Repositories\AzureSQL\AzureSQL\AzureSQL.UWP\Assets\StoreLogo.scale-200.png">
       <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-05-28T23:03:48.015</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AzureSQL\AzureSQL.UWP\Assets\StoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Repositories\AzureSQL\AzureSQL\AzureSQL.UWP\Assets\StoreLogo.scale-400.png">
       <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-05-28T23:03:48.021</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AzureSQL\AzureSQL.UWP\Assets\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Repositories\AzureSQL\AzureSQL\AzureSQL.UWP\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-05-28T23:03:48.024</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AzureSQL\AzureSQL.UWP\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Repositories\AzureSQL\AzureSQL\AzureSQL.UWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-05-28T23:03:48.026</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AzureSQL\AzureSQL.UWP\Assets\Wide310x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Repositories\AzureSQL\AzureSQL\AzureSQL.UWP\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-05-28T23:03:48.029</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AzureSQL\AzureSQL.UWP\xamarin_logo.png">
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Repositories\AzureSQL\AzureSQL\AzureSQL.UWP\xamarin_logo.png">
       <PackagePath>xamarin_logo.png</PackagePath>
       <Modified>2020-05-28T23:03:48.666</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AzureSQL\AzureSQL.UWP\add.png">
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Repositories\AzureSQL\AzureSQL\AzureSQL.UWP\add.png">
       <PackagePath>add.png</PackagePath>
       <Modified>2020-05-28T23:03:48.283</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AzureSQL\AzureSQL.UWP\save.png">
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Repositories\AzureSQL\AzureSQL\AzureSQL.UWP\save.png">
       <PackagePath>save.png</PackagePath>
       <Modified>2020-05-28T23:03:48.663</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AzureSQL\AzureSQL.UWP\cancel.png">
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Repositories\AzureSQL\AzureSQL\AzureSQL.UWP\cancel.png">
       <PackagePath>cancel.png</PackagePath>
       <Modified>2020-05-28T23:03:48.579</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AzureSQL\AzureSQL.UWP\bin\x86\Debug\AzureSQL.UWP.xr.xml">
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Repositories\AzureSQL\AzureSQL\AzureSQL.UWP\bin\x86\Debug\AzureSQL.UWP.xr.xml">
       <PackagePath>AzureSQL.UWP.xr.xml</PackagePath>
       <Modified>2020-05-28T23:07:24.673</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AzureSQL\AzureSQL.UWP\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Repositories\AzureSQL\AzureSQL\AzureSQL.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-06-03T00:31:57.529</Modified>
+      <Modified>2020-06-07T21:16:26.474</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AzureSQL\AzureSQL.UWP\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Repositories\AzureSQL\AzureSQL\AzureSQL.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-06-03T00:31:57.530</Modified>
+      <Modified>2020-06-07T21:16:26.474</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.18362.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -265,13 +273,13 @@
       <PackagePath>WinMetadata\Microsoft.UI.Xaml.winmd</PackagePath>
       <Modified>2019-12-12T08:48:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AzureSQL\AzureSQL.UWP\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Repositories\AzureSQL\AzureSQL\AzureSQL.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-06-03T00:31:58.289</Modified>
+      <Modified>2020-06-07T06:20:10.836</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AzureSQL\AzureSQL.UWP\bin\x86\Debug\Core\AzureSQL.UWP.exe">
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Repositories\AzureSQL\AzureSQL\AzureSQL.UWP\bin\x86\Debug\Core\AzureSQL.UWP.exe">
       <PackagePath>AzureSQL.UWP.exe</PackagePath>
-      <Modified>2020-06-03T00:32:00.607</Modified>
+      <Modified>2020-06-07T21:16:28.668</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

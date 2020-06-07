@@ -1,4 +1,6 @@
-﻿using System;
+﻿using AzureSQL.Models;
+using AzureSQL.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,6 +17,15 @@ namespace AzureSQL.Views
         public DriverDetailPage()
         {
             InitializeComponent();
+
+            BindingContext = new DriverDetailViewModel();
+        }
+
+        public DriverDetailPage(DriverModel driver)
+        {
+            InitializeComponent();
+
+            BindingContext = new DriverDetailViewModel(driver);
         }
     }
 }

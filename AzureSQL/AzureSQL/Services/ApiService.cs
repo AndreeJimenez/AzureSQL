@@ -11,7 +11,7 @@ namespace AzureSQL.Services
 {
     public class ApiService
     {
-        private string ApiUrl = "https://apiazuresql.azurewebsites.net";
+        private string ApiUrl = "{ Your ApiUrl }";
 
         public async Task<ApiResponse> GetDataAsync<T>(string controller)
         {
@@ -90,7 +90,7 @@ namespace AzureSQL.Services
             }
         }
 
-        public async Task<ApiResponse> PutDataAsync(string controller, object data)
+        public async Task<ApiResponse> PutDataAsync(string controller, int id, object data)
         {
             try
             {
@@ -102,7 +102,7 @@ namespace AzureSQL.Services
                     BaseAddress = new System.Uri(ApiUrl)
                 };
 
-                var response = await client.PutAsync(controller, content);
+                var response = await client.PutAsync(controller + "/" + id, content);
                 var result = await response.Content.ReadAsStringAsync();
 
                 if (!response.IsSuccessStatusCode)

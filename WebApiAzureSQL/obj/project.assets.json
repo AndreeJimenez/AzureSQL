@@ -6494,11 +6494,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\andre\\OneDrive\\Escritorio\\Proyectos Multiplataforma\\WebApiAzureSQL\\WebApiAzureSQL.csproj",
+      "projectUniqueName": "C:\\Users\\andre\\OneDrive\\Escritorio\\Repositories\\AzureSQL\\WebApiAzureSQL\\WebApiAzureSQL.csproj",
       "projectName": "WebApiAzureSQL",
-      "projectPath": "C:\\Users\\andre\\OneDrive\\Escritorio\\Proyectos Multiplataforma\\WebApiAzureSQL\\WebApiAzureSQL.csproj",
+      "projectPath": "C:\\Users\\andre\\OneDrive\\Escritorio\\Repositories\\AzureSQL\\WebApiAzureSQL\\WebApiAzureSQL.csproj",
       "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\andre\\OneDrive\\Escritorio\\Proyectos Multiplataforma\\WebApiAzureSQL\\obj\\",
+      "outputPath": "C:\\Users\\andre\\OneDrive\\Escritorio\\Repositories\\AzureSQL\\WebApiAzureSQL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

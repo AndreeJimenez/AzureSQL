@@ -15,7 +15,7 @@ namespace AzureSQL.Converters
             {
                 return "not_found.png";
             }
-            return 0;
+            return new ImageService().ConvertImageFromBase64ToImageSource(value.ToString());
         }
 
         public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)

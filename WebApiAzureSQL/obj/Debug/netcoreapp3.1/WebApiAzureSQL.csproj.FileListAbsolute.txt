@@ -1,0 +1,5 @@
+C:\Users\andre\OneDrive\Escritorio\Repositories\AzureSQL\WebApiAzureSQL\obj\Debug\netcoreapp3.1\WebApiAzureSQL.csprojAssemblyReference.cache
+C:\Users\andre\OneDrive\Escritorio\Repositories\AzureSQL\WebApiAzureSQL\obj\Debug\netcoreapp3.1\WebApiAzureSQL.AssemblyInfoInputs.cache
+C:\Users\andre\OneDrive\Escritorio\Repositories\AzureSQL\WebApiAzureSQL\obj\Debug\netcoreapp3.1\WebApiAzureSQL.AssemblyInfo.cs
+C:\Users\andre\OneDrive\Escritorio\Repositories\AzureSQL\WebApiAzureSQL\obj\Debug\netcoreapp3.1\WebApiAzureSQL.csproj.CoreCompileInputs.cache
+C:\Users\andre\OneDrive\Escritorio\Repositories\AzureSQL\WebApiAzureSQL\obj\Debug\netcoreapp3.1\WebApiAzureSQL.MvcApplicationPartsAssemblyInfo.cache

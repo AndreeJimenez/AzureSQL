@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hXCqq/3Ivqa6bHMQkPBf0u9Mugfx9RkMG+pvWVldhKcMV95rfP2wKplREml7cImieEelJpeHkeiY8SG0Jylkog==",
+  "dgSpecHash": "GF6aixyxCunU9zeBI0jETMHAYRdvQ7k1Pdmgy14+fgq0Tali+974mgTLOjwd7ABZ+NGJ+Y2DEwpDTQTzoprMFA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\andre\\OneDrive\\Escritorio\\Proyectos Multiplataforma\\WebApiAzureSQL\\WebApiAzureSQL.csproj",
+  "projectFilePath": "C:\\Users\\andre\\OneDrive\\Escritorio\\Repositories\\AzureSQL\\WebApiAzureSQL\\WebApiAzureSQL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\andre\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",

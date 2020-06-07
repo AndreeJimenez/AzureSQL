@@ -13,3 +13,21 @@ C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AzureSQL\AzureSQL\o
 C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AzureSQL\AzureSQL\obj\Debug\netstandard2.0\ref\AzureSQL.dll
 C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AzureSQL\AzureSQL\obj\Debug\netstandard2.0\AzureSQL.pdb
 C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AzureSQL\AzureSQL\obj\Debug\netstandard2.0\AzureSQL.csprojAssemblyReference.cache
+C:\Users\andre\OneDrive\Escritorio\Repositories\AzureSQL\AzureSQL\AzureSQL\bin\Debug\netstandard2.0\AzureSQL.deps.json
+C:\Users\andre\OneDrive\Escritorio\Repositories\AzureSQL\AzureSQL\AzureSQL\bin\Debug\netstandard2.0\AzureSQL.dll
+C:\Users\andre\OneDrive\Escritorio\Repositories\AzureSQL\AzureSQL\AzureSQL\bin\Debug\netstandard2.0\ref\AzureSQL.dll
+C:\Users\andre\OneDrive\Escritorio\Repositories\AzureSQL\AzureSQL\AzureSQL\bin\Debug\netstandard2.0\AzureSQL.pdb
+C:\Users\andre\OneDrive\Escritorio\Repositories\AzureSQL\AzureSQL\AzureSQL\obj\Debug\netstandard2.0\AzureSQL.csprojAssemblyReference.cache
+C:\Users\andre\OneDrive\Escritorio\Repositories\AzureSQL\AzureSQL\AzureSQL\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\andre\OneDrive\Escritorio\Repositories\AzureSQL\AzureSQL\AzureSQL\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+C:\Users\andre\OneDrive\Escritorio\Repositories\AzureSQL\AzureSQL\AzureSQL\obj\Debug\netstandard2.0\Views\DriverDetailPage.xaml.g.cs
+C:\Users\andre\OneDrive\Escritorio\Repositories\AzureSQL\AzureSQL\AzureSQL\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+C:\Users\andre\OneDrive\Escritorio\Repositories\AzureSQL\AzureSQL\AzureSQL\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\andre\OneDrive\Escritorio\Repositories\AzureSQL\AzureSQL\AzureSQL\obj\Debug\netstandard2.0\Views\MenuPage.xaml.g.cs
+C:\Users\andre\OneDrive\Escritorio\Repositories\AzureSQL\AzureSQL\AzureSQL\obj\Debug\netstandard2.0\AzureSQL.AssemblyInfoInputs.cache
+C:\Users\andre\OneDrive\Escritorio\Repositories\AzureSQL\AzureSQL\AzureSQL\obj\Debug\netstandard2.0\AzureSQL.AssemblyInfo.cs
+C:\Users\andre\OneDrive\Escritorio\Repositories\AzureSQL\AzureSQL\AzureSQL\obj\Debug\netstandard2.0\AzureSQL.dll
+C:\Users\andre\OneDrive\Escritorio\Repositories\AzureSQL\AzureSQL\AzureSQL\obj\Debug\netstandard2.0\ref\AzureSQL.dll
+C:\Users\andre\OneDrive\Escritorio\Repositories\AzureSQL\AzureSQL\AzureSQL\obj\Debug\netstandard2.0\AzureSQL.pdb
+C:\Users\andre\OneDrive\Escritorio\Repositories\AzureSQL\AzureSQL\AzureSQL\obj\Debug\netstandard2.0\AzureSQL.csproj.CoreCompileInputs.cache
+C:\Users\andre\OneDrive\Escritorio\Repositories\AzureSQL\AzureSQL\AzureSQL\obj\Debug\netstandard2.0\XamlC.stamp
